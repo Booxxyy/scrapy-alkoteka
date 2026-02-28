@@ -3,6 +3,10 @@ BOT_NAME = "scrapy_alkoteka"
 SPIDER_MODULES = ["scrapy_alkoteka.spiders"]
 NEWSPIDER_MODULE = "scrapy_alkoteka.spiders"
 
+CLOSESPIDER_ITEMCOUNT = 50  # Кол-во товаров для теста
+
+FEED_EXPORT_ENCODING = "utf-8"
+
 ROBOTSTXT_OBEY = False
 
 DEFAULT_REQUEST_HEADERS = {
